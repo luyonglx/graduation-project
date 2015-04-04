@@ -1,0 +1,6 @@
+[
+    { "name": "MVC_Lisa",  "email":"lisa@simpsons.com",  "phone":"555-111-1224"  },
+    { "name": "MVC_Bart",  "email":"bart@simpsons.com",  "phone":"555-222-1234" },
+    { "name": "MVC_Homer", "email":"home@simpsons.com",  "phone":"555-222-1244"  },
+    { "name": "MVC_Marge", "email":"marge@simpsons.com", "phone":"555-222-1254"  }
+]
