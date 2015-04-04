@@ -4,9 +4,9 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
     <!-- 命名空间 -->
-    <typeAliases>
-         <typeAlias alias="Student" type="com.graduation.pro.study_system.pojo.Student"/>
-    </typeAliases>
+   <!--  <typeAliases>
+         <typeAlias alias="Users" type="com.graduation.pro.study.system.pojo.Users"/>
+    </typeAliases> -->
     <!-- 映射map -->
     <mappers>
     </mappers>

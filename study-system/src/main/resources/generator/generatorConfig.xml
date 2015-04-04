@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
 <generatorConfiguration >
-	<classPathEntry location="C:\Users\LUYONG\.m2\repository\mysql\mysql-connector-java\5.1.29\mysql-connector-java-5.1.29.jar" />
+	<classPathEntry location="C:\Users\LY\.m2\repository\mysql\mysql-connector-java\5.1.29\mysql-connector-java-5.1.29.jar" />
   <context id="DB2Table">
     <!--   数据库连接 -->
     <jdbcConnection driverClass="com.mysql.jdbc.Driver" 
      connectionURL="jdbc:mysql://localhost:3306/study-system"
      userId="root"
-     password="root" />
+     password="admin" />
     <!--  生成到那个工程的哪个包下 -->
-    <javaModelGenerator targetPackage="com.graduation.pro.study_system.pojo" targetProject="study-system/src/main/java" />
+    <javaModelGenerator targetPackage="com.graduation.pro.study.system.pojo" targetProject="study-system/src/main/java" />
     <!-- mppering包件放在哪里 -->
-    <sqlMapGenerator targetPackage="com.graduation.pro.study_system.sqlmapper" targetProject="study-system/src/main/resources" />
+    <sqlMapGenerator targetPackage="com.graduation.pro.study.system.sqlmapper" targetProject="study-system/src/main/resources" />
     <!-- dao放在哪里 -->
-    <javaClientGenerator targetPackage="com.graduation.pro.study_system.mapper" targetProject="study-system/src/main/java" type="XMLMAPPER" />
-    <table tableName="users" schema="root"
+    <javaClientGenerator targetPackage="com.graduation.pro.study.system.mapper" targetProject="study-system/src/main/java" type="XMLMAPPER" />
+    <table tableName="users" 
 			domainObjectName="Users">
-			<property name="id" value="true" />
-			<property name="username" value="true" />
-			<property name="email" value="false" />
-			<property name="age" value="false" />
 	</table>
   </context>
 </generatorConfiguration>
